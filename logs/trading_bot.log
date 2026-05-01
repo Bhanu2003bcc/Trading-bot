@@ -1,0 +1,8 @@
+2026-05-01 07:05:44 | INFO     | cli                  | CLI invoked with command=place
+2026-05-01 07:05:46 | INFO     | cli                  | CLI invoked with command=place
+2026-05-01 07:05:46 | WARNING  | cli.place            | Validation failed: Price is required for LIMIT orders.
+2026-05-01 14:26:04 | INFO     | cli                  | CLI invoked with command=account
+2026-05-01 14:26:04 | INFO     | bot.client           | BinanceFuturesClient initialised. base_url=https://testnet.binancefuture.com
+2026-05-01 14:26:04 | INFO     | bot.client           | → GET /fapi/v2/account  params={'timestamp': 1777625764949, 'recvWindow': 5000}
+2026-05-01 14:26:06 | INFO     | bot.client           | ← HTTP 401  url=https://testnet.binancefuture.com/fapi/v2/account?timestamp=1777625764949&recvWindow=5000&signature=d181524913bf8813c4a10ec557c9ea3aa6aa10ac68cba59f02e07e04b552422f  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-01 14:26:06 | ERROR    | bot.client           | Binance API error  code=-2015  msg=Invalid API-key, IP, or permissions for action

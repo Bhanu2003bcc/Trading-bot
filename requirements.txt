@@ -1,0 +1,9 @@
+# Core dependencies
+requests>=2.31.0          # HTTP client for REST API calls
+
+# Optional — enhances CLI output with colours (graceful degradation without it)
+colorama>=0.4.6           # Cross-platform terminal colours
+
+# Development / testing
+pytest>=7.4.0
+pytest-mock>=3.12.0
